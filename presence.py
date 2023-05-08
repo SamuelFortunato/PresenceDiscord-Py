@@ -15,7 +15,7 @@ client_id = (a1)
 RPC = Presence(client_id )
 RPC.connect()
 
-print("Connected Doka Presence V.2 (ON)")
+print("Connected Presence V.2 (ON)")
 print("Developed by :  Mukasz / @mukasz_")
 
 quotes =[
