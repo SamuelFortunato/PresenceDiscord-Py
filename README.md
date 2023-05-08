@@ -14,8 +14,11 @@ destacado no Presence dentro do discord!
 2° Etapa
 Vá em Rich Presence e crie suas imagens com nomes que serão destacados no presence!
 
-3° Etapa (ULTIMA)
+3° Etapa
 Copie o Application ID e utilize dentro do programa.
+
+4° Etapa
+Adicione uma URL dentro do programa para funcionar o botão, tem que conter o "https://"!
 
 QUOTES: Quotes são frases ou se preferir palavras que irão mudar em um curto periodo de tempo.
 
