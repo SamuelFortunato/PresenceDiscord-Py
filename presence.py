@@ -15,7 +15,7 @@ client_id = (a1)
 RPC = Presence(client_id )
 RPC.connect()
 
-print("Connected Presence V.2 (ON)")
+print("Connected Presence V.3 (ON)")
 print("Developed by :  Mukasz / @mukasz_")
 
 quotes =[
@@ -26,6 +26,13 @@ quotes =[
 
 large_image_photo = (a5)
 
+#url e botão
+
 while True:
-    RPC.update(details=(a5), state=random.choice(quotes), large_image=(a5))
+    RPC.update(
+        details=(a5), 
+        state=random.choice(quotes), 
+        large_image=(a5),
+        buttons=[{"label": "Clique!", "url": "URL HERE!"}]
+    )
     time.sleep(5)
